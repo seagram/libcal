@@ -12,3 +12,8 @@ typedef uint64_t u64;
 
 typedef float f32;
 typedef double f64;
+
+typedef struct {
+  u8 *str;
+  u64 size;
+} string8;
