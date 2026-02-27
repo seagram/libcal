@@ -13,6 +13,8 @@ typedef uint64_t u64;
 typedef float f32;
 typedef double f64;
 
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
 typedef struct {
   u8 *str;
   u64 size;
