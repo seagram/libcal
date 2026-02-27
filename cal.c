@@ -17,3 +17,6 @@ typedef struct {
   u8 *str;
   u64 size;
 } string8;
+
+#define STR8_LIT(s) (string8){(u8 *)(s), sizeof((s)) - 1}
+#define STR8_FMT(s) (int)(s8).size, (s8).str
